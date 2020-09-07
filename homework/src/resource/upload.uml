@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>UI.upload</OriginalElement>
+  <nodes>
+    <node x="2063.1399743230622" y="1165.0">UI.login</node>
+    <node x="290.14789977179623" y="610.0">work.Student</node>
+    <node x="156.14789977179623" y="610.0">work.Teacher</node>
+    <node x="613.5961652318274" y="85.0">java.lang.Runnable</node>
+    <node x="1082.5171016483505" y="425.0">java.awt.image.ImageObserver</node>
+    <node x="90.67499999999995" y="230.0">java.lang.Thread</node>
+    <node x="1084.8222053273516" y="970.0">javax.swing.JFrame</node>
+    <node x="1947.8275727948526" y="825.0">java.awt.Frame</node>
+    <node x="1186.993013971323" y="85.0">javax.accessibility.Accessible</node>
+    <node x="1118.0097222222223" y="610.0">java.awt.Component</node>
+    <node x="449.9949747556369" y="610.0">work.Work</node>
+    <node x="1398.3275727948526" y="85.0">java.io.Serializable</node>
+    <node x="306.54256209476875" y="825.0">redis.redisMain</node>
+    <node x="995.0097222222223" y="825.0">javax.swing.WindowConstants</node>
+    <node x="672.7690624326644" y="1165.0">UI.upload</node>
+    <node x="1680.8275727948526" y="825.0">javax.swing.TransferHandler.HasGetTransferHandler</node>
+    <node x="581.0961652318274" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="894.3023957659976" y="1165.0">UI.TeaMain</node>
+    <node x="916.6837683150172" y="425.0">java.awt.Container</node>
+    <node x="566.9949747556369" y="610.0">work.Task</node>
+    <node x="628.318038660685" y="1290.0">client.ClientMain</node>
+    <node x="252.24789977179614" y="970.0">server.ServerSlave</node>
+    <node x="1354.8275727948526" y="230.0">java.awt.Window</node>
+    <node x="1492.8275727948526" y="425.0">java.awt.MenuContainer</node>
+    <node x="973.9930139713232" y="85.0">javax.swing.RootPaneContainer</node>
+    <node x="319.1978997717962" y="1165.0">server.ServerMain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="client.ClientMain" target="UI.login">
+      <point x="47.250000000000114" y="-17.5" />
+      <point x="743.068038660685" y="1260.0" />
+      <point x="2087.1399743230622" y="1260.0" />
+      <point x="-24.0" y="17.5" />
+    </edge>
+    <edge source="UI.TeaMain" target="java.awt.Frame">
+      <point x="37.5" y="-17.5" />
+      <point x="991.8023957659976" y="1135.0" />
+      <point x="2078.0418585091384" y="1135.0" />
+      <point x="2078.0418585091384" y="950.0" />
+      <point x="2027.9704299377097" y="950.0" />
+      <point x="29.14285714285711" y="17.5" />
+    </edge>
+    <edge source="server.ServerSlave" target="work.Teacher">
+      <point x="-20.549999999999955" y="-17.5" />
+      <point x="300.1978997717962" y="920.0" />
+      <point x="203.73781243266444" y="920.0" />
+      <point x="203.73781243266444" y="805.0" />
+      <point x="175.14789977179623" y="805.0" />
+      <point x="-38.0" y="17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+      <point x="8.294117647058783" y="-17.5" />
+      <point x="1196.803839869281" y="520.0" />
+      <point x="1204.0171016483505" y="520.0" />
+      <point x="40.5" y="17.5" />
+    </edge>
+    <edge source="UI.login" target="java.awt.Window">
+      <point x="19.200000000000045" y="-17.5" />
+      <point x="2130.3399743230625" y="1145.0" />
+      <point x="2142.568545751634" y="1145.0" />
+      <point x="2142.568545751634" y="345.0" />
+      <point x="1468.5775727948526" y="345.0" />
+      <point x="55.25" y="17.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.JFrame">
+      <point x="-46.28571428571428" y="17.5" />
+      <point x="1092.5364910416374" y="1025.0" />
+      <point x="1064.8222053273516" y="1025.0" />
+      <point x="1064.8222053273516" y="987.5" />
+      <point x="-54.0" y="-0.0" />
+    </edge>
+    <edge source="server.ServerSlave" target="java.lang.Runnable">
+      <point x="-61.65000000000009" y="-17.5" />
+      <point x="259.09789977179605" y="950.0" />
+      <point x="40.174999999999955" y="950.0" />
+      <point x="40.174999999999955" y="180.0" />
+      <point x="620.5961652318274" y="180.0" />
+      <point x="-56.0" y="17.5" />
+    </edge>
+    <edge source="UI.TeaMain" target="javax.swing.JFrame">
+      <point x="22.5" y="-17.5" />
+      <point x="976.8023957659976" y="1115.0" />
+      <point x="1154.2507767559232" y="1115.0" />
+      <point x="15.428571428571445" y="17.5" />
+    </edge>
+    <edge source="server.ServerMain" target="redis.redisMain">
+      <point x="11.416666666666742" y="-17.5" />
+      <point x="399.11456643846293" y="1125.0" />
+      <point x="439.67914977179623" y="1125.0" />
+      <point x="439.67914977179623" y="910.0" />
+      <point x="402.54256209476875" y="910.0" />
+      <point x="32.0" y="17.5" />
+    </edge>
+    <edge source="server.ServerSlave" target="work.Student">
+      <point x="-6.849999999999909" y="-17.5" />
+      <point x="313.89789977179623" y="910.0" />
+      <point x="276.76131209476875" y="910.0" />
+      <point x="276.76131209476875" y="805.0" />
+      <point x="309.14789977179623" y="805.0" />
+      <point x="-38.0" y="17.5" />
+    </edge>
+    <edge source="UI.upload" target="java.awt.Window">
+      <point x="1.1368683772161603E-13" y="-17.5" />
+      <point x="727.2690624326646" y="1115.0" />
+      <point x="688.5067460317462" y="1115.0" />
+      <point x="688.5067460317462" y="590.0" />
+      <point x="852.0190624326644" y="590.0" />
+      <point x="852.0190624326644" y="355.0" />
+      <point x="1384.0775727948526" y="355.0" />
+      <point x="-29.25" y="17.5" />
+    </edge>
+    <edge source="client.ClientMain" target="java.lang.Thread">
+      <point x="-60.749999999999886" y="-17.5" />
+      <point x="635.068038660685" y="1270.0" />
+      <point x="9.641666666666652" y="1270.0" />
+      <point x="9.641666666666652" y="375.0" />
+      <point x="128.4749999999999" y="375.0" />
+      <point x="-16.200000000000045" y="17.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="java.awt.Component">
+      <point x="5.400000000000034" y="-17.5" />
+      <point x="1144.2222053273517" y="910.0" />
+      <point x="1188.5097222222223" y="910.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.awt.Window">
+      <point x="-14.571428571428442" y="-17.5" />
+      <point x="1984.2561442234241" y="785.0" />
+      <point x="1930.357492874772" y="785.0" />
+      <point x="1930.357492874772" y="395.0" />
+      <point x="1436.0775727948526" y="395.0" />
+      <point x="22.75" y="17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.lang.Thread">
+      <point x="-66.35294117647061" y="-17.5" />
+      <point x="1122.1567810457516" y="580.0" />
+      <point x="424.85330808897027" y="580.0" />
+      <point x="424.85330808897027" y="405.0" />
+      <point x="171.67499999999995" y="405.0" />
+      <point x="27.0" y="17.5" />
+    </edge>
+    <edge source="server.ServerMain" target="java.lang.Thread">
+      <point x="-57.08333333333326" y="-17.5" />
+      <point x="330.61456643846293" y="1145.0" />
+      <point x="26.0" y="1145.0" />
+      <point x="26.0" y="385.0" />
+      <point x="139.27499999999986" y="385.0" />
+      <point x="-5.400000000000091" y="17.5" />
+    </edge>
+    <edge source="java.awt.Window" target="java.awt.Component">
+      <point x="-3.25" y="17.5" />
+      <point x="1410.0775727948526" y="395.0" />
+      <point x="1354.555513971323" y="395.0" />
+      <point x="1354.555513971323" y="550.0" />
+      <point x="1221.6861928104574" y="550.0" />
+      <point x="33.17647058823525" y="-17.5" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.awt.MenuContainer">
+      <point x="-29.14285714285711" y="-17.5" />
+      <point x="1969.6847156519955" y="795.0" />
+      <point x="1919.357492874772" y="795.0" />
+      <point x="1919.357492874772" y="590.0" />
+      <point x="1618.0775727948526" y="590.0" />
+      <point x="41.75" y="17.5" />
+    </edge>
+    <edge source="redis.redisMain" target="work.Teacher">
+      <point x="-40.0" y="-17.5" />
+      <point x="330.54256209476875" y="785.0" />
+      <point x="251.14789977179623" y="785.0" />
+      <point x="38.0" y="17.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.accessibility.Accessible">
+      <point x="-37.799999999999955" y="-17.5" />
+      <point x="1101.022205327352" y="940.0" />
+      <point x="841.0190624326644" y="940.0" />
+      <point x="841.0190624326644" y="190.0" />
+      <point x="1203.243013971323" y="190.0" />
+      <point x="-48.75" y="17.5" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.awt.Component">
+      <point x="-43.714285714285666" y="-17.5" />
+      <point x="1955.1132870805668" y="805.0" />
+      <point x="1235.5097222222223" y="805.0" />
+      <point x="47.0" y="17.5" />
+    </edge>
+    <edge source="java.awt.Container" target="java.io.Serializable">
+      <point x="19.050000000000068" y="-17.5" />
+      <point x="999.2337683150174" y="345.0" />
+      <point x="1169.6138719940184" y="345.0" />
+      <point x="1169.6138719940184" y="210.0" />
+      <point x="1415.5775727948526" y="210.0" />
+      <point x="-51.75" y="17.5" />
+    </edge>
+    <edge source="UI.login" target="javax.swing.JFrame">
+      <point x="-19.200000000000045" y="-17.5" />
+      <point x="2091.9399743230624" y="1105.0" />
+      <point x="1185.107919613066" y="1105.0" />
+      <point x="46.285714285714334" y="17.5" />
+    </edge>
+    <edge source="redis.redisMain" target="work.Work">
+      <point x="24.0" y="-17.5" />
+      <point x="394.54256209476875" y="735.0" />
+      <point x="468.1824747556369" y="735.0" />
+      <point x="-30.3125" y="17.5" />
+    </edge>
+    <edge source="UI.upload" target="javax.swing.JFrame">
+      <point x="31.142857142857224" y="-17.5" />
+      <point x="758.4119195755217" y="1095.0" />
+      <point x="1123.3936338987803" y="1095.0" />
+      <point x="-15.428571428571445" y="17.5" />
+    </edge>
+    <edge source="server.ServerSlave" target="java.lang.Thread">
+      <point x="-47.950000000000045" y="-17.5" />
+      <point x="272.7978997717961" y="940.0" />
+      <point x="108.51131209476875" y="940.0" />
+      <point x="108.51131209476875" y="395.0" />
+      <point x="150.07500000000005" y="395.0" />
+      <point x="5.400000000000091" y="17.5" />
+    </edge>
+    <edge source="UI.login" target="java.lang.Runnable">
+      <point x="38.40000000000009" y="-17.5" />
+      <point x="2149.539974323063" y="1145.0" />
+      <point x="2153.568545751634" y="1145.0" />
+      <point x="2153.568545751634" y="140.0" />
+      <point x="732.5961652318274" y="140.0" />
+      <point x="56.0" y="17.5" />
+    </edge>
+    <edge source="client.ClientMain" target="server.ServerMain">
+      <point x="-47.249999999999886" y="-17.5" />
+      <point x="648.568038660685" y="1260.0" />
+      <point x="387.6978997717962" y="1260.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="java.awt.Window">
+      <point x="16.19999999999999" y="-17.5" />
+      <point x="1155.0222053273517" y="920.0" />
+      <point x="1670.3275727948526" y="920.0" />
+      <point x="1670.3275727948526" y="405.0" />
+      <point x="1429.5775727948526" y="405.0" />
+      <point x="16.25" y="17.5" />
+    </edge>
+    <edge source="client.ClientMain" target="work.Task">
+      <point x="-20.249999999999886" y="-17.5" />
+      <point x="675.568038660685" y="1240.0" />
+      <point x="608.502284316991" y="1240.0" />
+      <point x="608.502284316991" y="805.0" />
+      <point x="622.606085866748" y="805.0" />
+      <point x="10.111111111111086" y="17.5" />
+    </edge>
+    <edge source="java.awt.Window" target="javax.accessibility.Accessible">
+      <point x="0.0" y="-17.5" />
+      <point x="1413.3275727948526" y="160.0" />
+      <point x="1300.743013971323" y="160.0" />
+      <point x="48.75" y="17.5" />
+    </edge>
+    <edge source="server.ServerMain" target="server.ServerSlave">
+      <point x="-34.25" y="-17.5" />
+      <point x="353.4478997717962" y="1135.0" />
+      <point x="286.49789977179614" y="1135.0" />
+      <point x="-34.25" y="17.5" />
+    </edge>
+    <edge source="server.ServerSlave" target="redis.redisMain">
+      <point x="6.849999999999909" y="-17.5" />
+      <point x="327.59789977179605" y="910.0" />
+      <point x="338.54256209476875" y="910.0" />
+      <point x="-32.0" y="17.5" />
+    </edge>
+    <edge source="UI.upload" target="work.Work">
+      <point x="-46.714285714285666" y="-17.5" />
+      <point x="680.5547767183788" y="1145.0" />
+      <point x="619.502284316991" y="1145.0" />
+      <point x="619.502284316991" y="725.0" />
+      <point x="528.8074747556369" y="725.0" />
+      <point x="30.3125" y="17.5" />
+    </edge>
+    <edge source="redis.redisMain" target="work.Task">
+      <point x="56.0" y="-17.5" />
+      <point x="426.54256209476875" y="765.0" />
+      <point x="582.1616414223037" y="765.0" />
+      <point x="-30.333333333333258" y="17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="javax.accessibility.Accessible">
+      <point x="24.882352941176464" y="-17.5" />
+      <point x="1213.3920751633987" y="540.0" />
+      <point x="1294.3275727948526" y="540.0" />
+      <point x="1294.3275727948526" y="200.0" />
+      <point x="1268.243013971323" y="200.0" />
+      <point x="16.25" y="17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Component">
+      <point x="-47.0" y="17.5" />
+      <point x="1141.5097222222223" y="665.0" />
+      <point x="1098.0097222222223" y="665.0" />
+      <point x="1098.0097222222223" y="627.5" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="java.awt.Container">
+      <point x="-27.0" y="-17.5" />
+      <point x="1111.8222053273516" y="930.0" />
+      <point x="984.5097222222223" y="930.0" />
+      <point x="984.5097222222223" y="590.0" />
+      <point x="937.850434981684" y="590.0" />
+      <point x="-42.33333333333337" y="17.5" />
+    </edge>
+    <edge source="server.ServerMain" target="work.Task">
+      <point x="57.08333333333326" y="-17.5" />
+      <point x="444.78123310512944" y="1145.0" />
+      <point x="581.0439509836576" y="1145.0" />
+      <point x="581.0439509836576" y="795.0" />
+      <point x="612.4949747556369" y="795.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.io.Serializable">
+      <point x="58.05882352941171" y="-17.5" />
+      <point x="1246.568545751634" y="580.0" />
+      <point x="1482.3275727948526" y="580.0" />
+      <point x="1482.3275727948526" y="210.0" />
+      <point x="1484.5775727948526" y="210.0" />
+      <point x="17.25" y="17.5" />
+    </edge>
+    <edge source="server.ServerSlave" target="work.Task">
+      <point x="47.950000000000045" y="-17.5" />
+      <point x="368.6978997717962" y="940.0" />
+      <point x="521.4565624326644" y="940.0" />
+      <point x="521.4565624326644" y="775.0" />
+      <point x="592.2727525334147" y="775.0" />
+      <point x="-20.22222222222217" y="17.5" />
+    </edge>
+    <edge source="UI.TeaMain" target="java.lang.Runnable">
+      <point x="-7.5" y="-17.5" />
+      <point x="946.8023957659976" y="1045.0" />
+      <point x="781.3180386606851" y="1045.0" />
+      <point x="781.3180386606851" y="210.0" />
+      <point x="690.5961652318274" y="210.0" />
+      <point x="14.0" y="17.5" />
+    </edge>
+    <edge source="java.awt.Window" target="java.awt.Frame">
+      <point x="42.25" y="17.5" />
+      <point x="1455.5775727948526" y="365.0" />
+      <point x="2022.6132870805668" y="365.0" />
+      <point x="2022.6132870805668" y="805.0" />
+      <point x="2027.9704299377097" y="805.0" />
+      <point x="29.14285714285711" y="-17.5" />
+    </edge>
+    <edge source="java.awt.Container" target="java.awt.Window">
+      <point x="31.750000000000114" y="-17.5" />
+      <point x="1011.9337683150175" y="365.0" />
+      <point x="1390.5775727948526" y="365.0" />
+      <point x="-22.75" y="17.5" />
+    </edge>
+    <edge source="java.awt.Window" target="java.io.Serializable">
+      <point x="39.0" y="-17.5" />
+      <point x="1452.3275727948526" y="210.0" />
+      <point x="1450.0775727948526" y="210.0" />
+      <point x="-17.25" y="17.5" />
+    </edge>
+    <edge source="javax.swing.RootPaneContainer" target="java.awt.Component">
+      <point x="24.125" y="17.5" />
+      <point x="1094.6180139713233" y="180.0" />
+      <point x="1255.0171016483505" y="180.0" />
+      <point x="1255.0171016483505" y="530.0" />
+      <point x="1205.0979575163399" y="530.0" />
+      <point x="16.58823529411768" y="-17.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Runnable">
+      <point x="-36.0" y="-17.5" />
+      <point x="108.67499999999995" y="190.0" />
+      <point x="634.5961652318274" y="190.0" />
+      <point x="-42.0" y="17.5" />
+    </edge>
+    <edge source="java.awt.Container" target="java.lang.Runnable">
+      <point x="-19.04999999999984" y="-17.5" />
+      <point x="961.1337683150175" y="345.0" />
+      <point x="955.9555386606852" y="345.0" />
+      <point x="955.9555386606852" y="150.0" />
+      <point x="718.5961652318274" y="150.0" />
+      <point x="42.0" y="17.5" />
+    </edge>
+    <edge source="UI.TeaMain" target="java.awt.Window">
+      <point x="52.5" y="-17.5" />
+      <point x="1006.8023957659976" y="1145.0" />
+      <point x="2107.0061442234237" y="1145.0" />
+      <point x="2107.0061442234237" y="355.0" />
+      <point x="1462.0775727948526" y="355.0" />
+      <point x="48.75" y="17.5" />
+    </edge>
+    <edge source="java.awt.Container" target="java.lang.Thread">
+      <point x="-44.44999999999993" y="-17.5" />
+      <point x="935.7337683150174" y="335.0" />
+      <point x="193.27499999999986" y="335.0" />
+      <point x="48.59999999999991" y="17.5" />
+    </edge>
+    <edge source="UI.TeaMain" target="work.Task">
+      <point x="-22.5" y="-17.5" />
+      <point x="931.8023957659976" y="1055.0" />
+      <point x="728.8180386606853" y="1055.0" />
+      <point x="728.8180386606853" y="685.0" />
+      <point x="652.9394192000813" y="685.0" />
+      <point x="40.44444444444434" y="17.5" />
+    </edge>
+    <edge source="javax.swing.RootPaneContainer" target="java.awt.Container">
+      <point x="-24.125" y="17.5" />
+      <point x="1046.3680139713233" y="180.0" />
+      <point x="972.9837683150174" y="180.0" />
+      <point x="-6.349999999999909" y="-17.5" />
+    </edge>
+    <edge source="server.ServerSlave" target="work.Work">
+      <point x="34.25" y="-17.5" />
+      <point x="354.99789977179614" y="930.0" />
+      <point x="493.17914977179623" y="930.0" />
+      <point x="-6.0625" y="17.5" />
+    </edge>
+    <edge source="server.ServerMain" target="work.Work">
+      <point x="34.25" y="-17.5" />
+      <point x="421.9478997717962" y="1135.0" />
+      <point x="543.4565624326644" y="1135.0" />
+      <point x="543.4565624326644" y="745.0" />
+      <point x="504.5574747556369" y="745.0" />
+      <point x="6.0625" y="17.5" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.RootPaneContainer">
+      <point x="-48.599999999999966" y="-17.5" />
+      <point x="1090.2222053273517" y="950.0" />
+      <point x="792.3180386606851" y="950.0" />
+      <point x="792.3180386606851" y="170.0" />
+      <point x="998.1180139713232" y="170.0" />
+      <point x="-72.375" y="17.5" />
+    </edge>
+    <edge source="UI.upload" target="java.awt.Frame">
+      <point x="46.71428571428578" y="-17.5" />
+      <point x="773.9833481469502" y="1125.0" />
+      <point x="2013.399001366281" y="1125.0" />
+      <point x="14.571428571428555" y="17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Container">
+      <point x="-49.76470588235293" y="-17.5" />
+      <point x="1138.7450163398694" y="560.0" />
+      <point x="966.0726572039061" y="560.0" />
+      <point x="-14.111111111111086" y="17.5" />
+    </edge>
+    <edge source="client.ClientMain" target="UI.TeaMain">
+      <point x="33.750000000000114" y="-17.5" />
+      <point x="729.568038660685" y="1250.0" />
+      <point x="984.3023957659976" y="1250.0" />
+      <point x="30.0" y="17.5" />
+    </edge>
+    <edge source="client.ClientMain" target="UI.upload">
+      <point x="6.750000000000114" y="-17.5" />
+      <point x="702.568038660685" y="1230.0" />
+      <point x="754.5190624326644" y="1230.0" />
+      <point x="27.25" y="17.5" />
+    </edge>
+    <edge source="client.ClientMain" target="work.Work">
+      <point x="-33.749999999999886" y="-17.5" />
+      <point x="662.068038660685" y="1250.0" />
+      <point x="597.502284316991" y="1250.0" />
+      <point x="597.502284316991" y="735.0" />
+      <point x="516.6824747556369" y="735.0" />
+      <point x="18.1875" y="17.5" />
+    </edge>
+    <edge source="UI.upload" target="java.lang.Runnable">
+      <point x="-15.571428571428442" y="-17.5" />
+      <point x="711.697633861236" y="1125.0" />
+      <point x="676.5961652318274" y="1125.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.Window">
+      <point x="41.470588235294144" y="-17.5" />
+      <point x="1229.9803104575165" y="560.0" />
+      <point x="1362.849631618382" y="560.0" />
+      <point x="1362.849631618382" y="405.0" />
+      <point x="1416.5775727948526" y="405.0" />
+      <point x="3.25" y="17.5" />
+    </edge>
+    <edge source="java.awt.Window" target="javax.swing.RootPaneContainer">
+      <point x="-39.0" y="-17.5" />
+      <point x="1374.3275727948526" y="170.0" />
+      <point x="1142.8680139713233" y="170.0" />
+      <point x="72.375" y="17.5" />
+    </edge>
+    <edge source="java.awt.Window" target="java.awt.Container">
+      <point x="-16.25" y="17.5" />
+      <point x="1397.0775727948526" y="375.0" />
+      <point x="1024.6337683150175" y="375.0" />
+      <point x="44.45000000000016" y="-17.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.MenuContainer">
+      <point x="66.35294117647061" y="-17.5" />
+      <point x="1254.8626633986928" y="590.0" />
+      <point x="1534.5775727948526" y="590.0" />
+      <point x="-41.75" y="17.5" />
+    </edge>
+    <edge source="server.ServerSlave" target="server.ServerMain">
+      <point x="34.25" y="17.5" />
+      <point x="354.99789977179614" y="1125.0" />
+      <point x="376.28123310512944" y="1125.0" />
+      <point x="-11.416666666666742" y="-17.5" />
+    </edge>
+    <edge source="java.awt.Window" target="java.awt.Window">
+      <point x="-55.25" y="17.5" />
+      <point x="1358.0775727948526" y="285.0" />
+      <point x="1334.8275727948526" y="285.0" />
+      <point x="1334.8275727948526" y="260.625" />
+      <point x="-58.5" y="13.125" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="java.awt.Frame">
+      <point x="48.60000000000002" y="-17.5" />
+      <point x="1187.4222053273518" y="950.0" />
+      <point x="1998.8275727948526" y="950.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.WindowConstants">
+      <point x="-5.399999999999977" y="-17.5" />
+      <point x="1133.4222053273518" y="950.0" />
+      <point x="1132.2597222222223" y="950.0" />
+      <point x="45.75" y="17.5" />
+    </edge>
+    <edge source="java.awt.Container" target="java.awt.Container">
+      <point x="-56.44444444444444" y="17.5" />
+      <point x="923.7393238705729" y="480.0" />
+      <point x="896.6837683150172" y="480.0" />
+      <point x="896.6837683150172" y="442.5" />
+      <point x="-63.5" y="-0.0" />
+    </edge>
+    <edge source="java.awt.Container" target="javax.accessibility.Accessible">
+      <point x="6.350000000000136" y="-17.5" />
+      <point x="986.5337683150174" y="335.0" />
+      <point x="1010.7805386606852" y="335.0" />
+      <point x="1010.7805386606852" y="200.0" />
+      <point x="1235.743013971323" y="200.0" />
+      <point x="-16.25" y="17.5" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.awt.Frame">
+      <point x="-29.14285714285711" y="17.5" />
+      <point x="1969.6847156519955" y="890.0" />
+      <point x="1917.8275727948526" y="890.0" />
+      <point x="1917.8275727948526" y="833.75" />
+      <point x="-51.0" y="-8.75" />
+    </edge>
+    <edge source="UI.login" target="java.awt.Frame">
+      <point x="0.0" y="-17.5" />
+      <point x="2111.1399743230622" y="1095.0" />
+      <point x="2089.0418585091384" y="1095.0" />
+      <point x="2089.0418585091384" y="940.0" />
+      <point x="2042.5418585091384" y="940.0" />
+      <point x="43.71428571428578" y="17.5" />
+    </edge>
+    <edge source="redis.redisMain" target="work.Student">
+      <point x="-8.0" y="-17.5" />
+      <point x="362.54256209476875" y="715.0" />
+      <point x="385.14789977179623" y="715.0" />
+      <point x="38.0" y="17.5" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Thread">
+      <point x="-27.0" y="17.5" />
+      <point x="117.67499999999995" y="305.0" />
+      <point x="50.674999999999955" y="305.0" />
+      <point x="50.674999999999955" y="235.83333333333326" />
+      <point x="-54.0" y="-11.666666666666742" />
+    </edge>
+    <edge source="java.awt.Container" target="java.awt.Component">
+      <point x="0.0" y="17.5" />
+      <point x="980.1837683150172" y="550.0" />
+      <point x="1147.0391339869282" y="550.0" />
+      <point x="-41.470588235294144" y="-17.5" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.io.Serializable">
+      <point x="43.71428571428578" y="-17.5" />
+      <point x="2042.5418585091384" y="805.0" />
+      <point x="2033.6132870805668" y="805.0" />
+      <point x="2033.6132870805668" y="210.0" />
+      <point x="1519.0775727948526" y="210.0" />
+      <point x="51.75" y="17.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.TransferHandler.HasGetTransferHandler">
+      <point x="27.0" y="-17.5" />
+      <point x="1165.8222053273516" y="930.0" />
+      <point x="1789.3275727948526" y="930.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2101010101010103" x="522.5191986644406" y="1029.3772954924875" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

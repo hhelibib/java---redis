@@ -1,0 +1,28 @@
+stu 0001 zhangsa 123456 电商1802
+stu 0002 lisi 123456 电商1802
+stu 0003 wangwu 123456 电商1802
+stu 0004 stu4 123456 电商1802
+stu 0005 stu5 123456 电商1801
+stu 0006 stu6 123456 电商1801
+stu 0007 stu7 123456 软件工程1801
+stu 0008 stu8 123456 软件工程1802
+stu 0009 stu9 123456 电商1801
+stu 0010 stu10 123456 电商1802
+stu 0011 stu11 123456 计算机科学与技术1801
+stu 0012 stu12 123456 计算机科学与技术1802
+tea 0001 tea1 123456
+tea 0002 tea2 123456
+tea 0003 tea3 123456
+tea 0004 tea4 123456
+tea 0005 tea5 123456
+tea 0006 tea6 123456
+tea 0007 tea7 123456
+tea 0008 tea8 123456
+tea 0009 tea9 123456
+tea 0010 tea10 123456
+task t0001 Java实验报告 src/resource/file/Java实验报告-电商1802 电商1802 tea1 作业描述无1
+task t0002 数据结构实验报告 src/resource/file/数据结构实验报告-电商1802 电商1802 tea1 作业描述无2
+task t0003 Linux实验报告 src/resource/file/Linux实验报告-电商1802 电商1802 tea1 作业描述无3
+task t0004 计算机网络实验报告 src/resource/file/计算机网络实验报告 电商1801 tea1 作业描述无4
+task t0005 大数据实验报告 src/resource/file/大数据实验报告 电商1801 tea1 作业描述无5
+task t0006 云计算实验报告 src/resource/file/云计算实验报告 电商1801 tea1 作业描述无6
